@@ -27,7 +27,7 @@ The dataset is a synthetic dataset created for academic analysis, using numpy an
 - Created a histogram to examine the distribution of approval times
 - Categorized loan approvals as efficient (less than 14 days) and delayed (more than 14 days) for the efficiency of the process
 
-## Tools and Technologies
+## Tools Used
 - Python
 - Pandas
 - Matplotlib
