@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from pathlib import Path 
 
 # Load the dataset
-BASE_DIR = Path.cwd()
+BASE_DIR = Path(__file__).resolve().parent
 csv_path = BASE_DIR / "bank_loan_approval_time_dataset.csv"
 
 df = pd.read_csv(csv_path)
@@ -44,4 +44,5 @@ delayed = df[df["Approval_Time_Days"] > 14]
 
 print("Efficient approvals:", len(efficient))
 print("Delayed approvals:", len(delayed))
+
 
