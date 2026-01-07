@@ -44,7 +44,7 @@ This analysis reveals that the time for loan approvals has moderate variability.
 ## How to Run
 1. Clone the repository
 2. Install required libraries using `pip install -r requirements.txt`
-3. Open and run `analysis.ipynb` or execute the Python script from the `src` folder
+3. Open and run `Notebook.ipynb` or execute the Python script from the `src` folder
 
 ## Author
 Krish Verma
